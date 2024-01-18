@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header > div{
+    height: 50px;
+    line-height: 50px;
+}
+header > div > h1{
+    margin: 0px;
+}
+
+#play{
+    padding: 0px 30px;
+    background-color: darkcyan;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.griglia{
+    background-color: cyan;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+
+.container-griglia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 100px;
+    width: 1000px;
+}
+
+.box{
+    width: 90px;
+    height: 90px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 3px solid black;
+}
